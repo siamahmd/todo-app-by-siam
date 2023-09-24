@@ -11,7 +11,7 @@ const Wrapper = styled.div`
 `;
 
 const NavWrapper = styled.div`
-  background: red;
+  background: blue;
   flex: 0 0 20%;
   height: 100%;
   padding: 20px 30px;
