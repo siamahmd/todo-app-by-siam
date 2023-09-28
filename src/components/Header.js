@@ -27,7 +27,7 @@ function classNames(...classes) {
 
 export default function Header() {
   return (
-    <Disclosure as="nav" className="bg-sky-950">
+    <Disclosure as="nav" className="bg-slate-900">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -39,7 +39,10 @@ export default function Header() {
                         src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
                         alt="Your Company"
                       /> */}
-                  <h1 className="text-2xl	text-amber-400 font-bold	">task.app</h1>
+                  <h1 className="text-2xl	font-bold">
+                    <span className="text-purple-400">todo</span>
+                    <span className="text-amber-400">.app</span>
+                  </h1>
                 </div>
               </div>
               <div className="hidden md:block">

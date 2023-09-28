@@ -1,8 +1,8 @@
 export default function Todo() {
   return (
-    <div className="bg-slate-700 flex-grow text-black border-l-8 border-green-500 rounded-md px-3 py-2 w-full">
+    <div className="bg-zinc-950 flex-grow text-black border-l-8 border-fuchsia-950 rounded-md px-3 py-2 w-full">
       <div className="flex flex-col align-center items-center text-center p-5">
-        <h5 className="mb-1 text-xl font-medium text-amber-600 dark:text-cyan-400">
+        <h5 className="mb-1 text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-purple-500">
           laboriosam mollitia et enim quasi adipisci quia provident illum
         </h5>
         <span className="text-sm text-gray-500 dark:text-gray-400">
