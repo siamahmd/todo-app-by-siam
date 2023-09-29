@@ -21,7 +21,7 @@ const NavWrapper = styled.div`
 `;
 
 const TodosWrapper = styled.div`
-  background-color: rgb(19 78 74);
+  background-color: rgb(4 47 46);
   flex: 0 0 80%;
   height: 100%;
   padding: 20px 30px;
